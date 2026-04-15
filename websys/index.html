@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMU Bookstore | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                CMU CICS <span>E-Commerce Prototype</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Products</a></li>
+                <li><a href="cart.html">Cart (3)</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>📚 Available Books & Merchandise</h1>
+        <p style="margin-bottom: 20px;">Welcome to the CMU Information Sciences Bookstore. Sample static data simulation.</p>
+        
+        <div class="grid-3">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <h3>Web Systems & Technologies</h3>
+                <p>By Eyeryl Jun J. Tano</p>
+                <div class="price">₱850.00</div>
+                <span class="stock-badge">In Stock: 24</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <h3>Database Design 3rd Ed.</h3>
+                <p>Coronel & Morris</p>
+                <div class="price">₱1,250.00</div>
+                <span class="stock-badge">In Stock: 12</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <h3>CMU Lanyard & ID Holder</h3>
+                <p>Official Merchandise</p>
+                <div class="price">₱150.00</div>
+                <span class="stock-badge">In Stock: 50+</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <h3>Programming Logic & Design</h3>
+                <p>Joyce Farrell</p>
+                <div class="price">₱975.00</div>
+                <span class="stock-badge">In Stock: 8</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <h3>CICS Department Shirt</h3>
+                <p>Sizes: S, M, L, XL</p>
+                <div class="price">₱450.00</div>
+                <span class="stock-badge">In Stock: 32</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <h3>External Hard Drive 1TB</h3>
+                <p>Seagate Expansion</p>
+                <div class="price">₱3,200.00</div>
+                <span class="stock-badge">In Stock: 5</span>
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                <a href="cart.html" class="btn btn-block">Add to Cart</a>
+            </div>
+        </div>
+
+        <!-- Simulated Table of Recent Additions (As per requirement: Display data in tables) -->
+        <h2 style="margin-top: 50px;">📋 Recently Added Inventory (Sample Table)</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>#WEB101</td><td>Web Systems & Technologies</td><td>Books</td><td>₱850</td></tr>
+                <tr><td>#DB202</td><td>Database Design 3rd Ed.</td><td>Books</td><td>₱1,250</td></tr>
+                <tr><td>#MERCH01</td><td>CMU Lanyard</td><td>Accessories</td><td>₱150</td></tr>
+                <tr><td>#HDD01</td><td>External Hard Drive 1TB</td><td>Electronics</td><td>₱3,200</td></tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>IT 56 - Web Systems and Technologies 2 | Central Mindanao University</p>
+        <p>Static Prototype for Future PHP/MySQL Integration</p>
+    </footer>
+</body>
+</html>

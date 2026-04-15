@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | CMU E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">CMU CICS <span>E-Commerce Prototype</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>📊 Admin Dashboard</h1>
+        <p>Welcome back, <strong>Juan Dela Cruz</strong> (BSIT Student)</p>
+
+        <!-- Simulated Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h4>Total Orders</h4>
+                <div class="number">24</div>
+            </div>
+            <div class="stat-card">
+                <h4>Pending</h4>
+                <div class="number">3</div>
+            </div>
+            <div class="stat-card">
+                <h4>Total Spent</h4>
+                <div class="number">₱4,250</div>
+            </div>
+            <div class="stat-card">
+                <h4>Items in Cart</h4>
+                <div class="number">2</div>
+            </div>
+        </div>
+
+        <!-- Records List (Sample Data) -->
+        <h2>📦 Recent Order History (Sample Data)</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Date</th>
+                    <th>Items</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#CMU-2024-101</td>
+                    <td>2026-04-10</td>
+                    <td>Web Systems Book, Lanyard</td>
+                    <td>₱1,000</td>
+                    <td><span style="background: #fff3cd; padding: 4px 8px; border-radius: 20px;">Processing</span></td>
+                    <td>
+                        <a href="#" style="color: #006633; margin-right: 10px;">View</a>
+                        <a href="#" style="color: #cc0000;">Cancel</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#CMU-2024-098</td>
+                    <td>2026-04-05</td>
+                    <td>Database Design 3rd Ed.</td>
+                    <td>₱1,250</td>
+                    <td><span style="background: #d4edda; padding: 4px 8px; border-radius: 20px;">Completed</span></td>
+                    <td>
+                        <a href="#" style="color: #006633;">View</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#CMU-2024-085</td>
+                    <td>2026-03-28</td>
+                    <td>CICS Dept Shirt (x2)</td>
+                    <td>₱900</td>
+                    <td><span style="background: #d4edda; padding: 4px 8px; border-radius: 20px;">Completed</span></td>
+                    <td>
+                        <a href="#" style="color: #006633;">View</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Simulated Buttons for Future PHP Integration -->
+        <div style="margin-top: 30px; display: flex; gap: 15px;">
+            <button class="btn" disabled title="Will work with PHP/MySQL">➕ Add New Order (PHP)</button>
+            <button class="btn btn-outline" disabled title="Will work with PHP/MySQL">📄 Generate Report (PHP)</button>
+        </div>
+        <p style="margin-top: 10px; font-style: italic; color: #666;">* Static Prototype: Add/Edit/Delete buttons will be functional after PHP integration.</p>
+    </main>
+
+    <footer>
+        <p>IT 56 - Web Systems and Technologies 2 | Central Mindanao University</p>
+    </footer>
+</body>
+</html>

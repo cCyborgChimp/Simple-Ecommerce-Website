@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | CMU E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">CMU CICS <span>E-Commerce Prototype</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="form-container">
+            <h2 style="text-align: center; color: #006633; margin-bottom: 25px;">📝 Create Account</h2>
+            
+            <form action="login.html" method="get">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Juan Dela Cruz" required>
+                </div>
+                <div class="form-group">
+                    <label for="student_id">Student / Employee ID</label>
+                    <input type="text" id="student_id" placeholder="2024-XXXXX" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg_email">Email Address</label>
+                    <input type="email" id="reg_email" placeholder="juandc@cmu.edu.ph" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Course / Department</label>
+                    <select id="course" required>
+                        <option value="">Select...</option>
+                        <option>BS Information Technology</option>
+                        <option>BS Computer Science</option>
+                        <option>BS Information Systems</option>
+                        <option>Faculty</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="reg_password">Password</label>
+                    <input type="password" id="reg_password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="terms" required> <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="btn btn-block">Register</button>
+                <hr style="margin: 20px 0;">
+                <p style="text-align: center;">Already have an account? <a href="login.html">Sign In</a></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>IT 56 - Web Systems and Technologies 2 | Central Mindanao University</p>
+    </footer>
+</body>
+</html>
